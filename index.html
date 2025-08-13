@@ -123,6 +123,12 @@
                     allowfullscreen>
             </iframe>
         </div>
+<script>
+    setTimeout(() => {
+        const iframe = document.getElementById('myVideo');
+        iframe.src += "&autoplay=1"; // 2초 후 자동재생
+    }, 2000);
+</script>
 
         <!-- 3. 나머지 사진들 -->
         <img src="imgi_5_location.jpg" alt="위치">
